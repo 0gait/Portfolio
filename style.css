@@ -216,7 +216,7 @@ section .title::after {
 
 .about {
     display: flex;
-    background: grey;
+    background: #112344;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -224,3 +224,57 @@ section .title::after {
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.about .about-content {}
+
+.athlete {
+    display: flex;
+    background: #1D3C70;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.athlete .athlete-content {}
+
+.skills {
+    display: flex;
+    background: #707E9B;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.skills .skills-content {}
+
+.curiosities {
+    display: flex;
+    background: #8493A0;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.curiosities .skills-content {}
+
+.contact {
+    display: flex;
+    background: #BEB9B6;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact .skills-content {}
