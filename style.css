@@ -168,3 +168,10 @@ footer {
     color: crimson;
     background: none;
 }
+
+@media(max-width: 100%) {
+    .home .max-width {
+        width: 200%;
+        display: flex;
+    }
+}
