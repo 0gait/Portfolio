@@ -12,7 +12,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 10%;
 }
 
 ::-webkit-scrollbar-track {
@@ -27,13 +27,9 @@ html {
     background: #555;
 }
 
-section {
-    padding: 100px 0;
-}
-
 .max-width {
-    max-width: 1300px;
-    padding: 0 80px;
+    max-width: 100%;
+    padding: 0 5%;
     margin: auto;
 }
 
@@ -56,50 +52,18 @@ footer {
     justify-content: space-between;
 }
 
-section .title {
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-section .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 180px;
-    height: 3px;
-    background: #111;
-    transform: translateX(-50%);
-}
-
-section .title::after {
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 0 5px;
-    background: #fff;
-    transform: translateX(-50%);
-}
-
 /* navbar styling */
 .navbar {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 3% 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 
 .navbar.sticky {
-    padding: 15px 0;
+    padding: 15% 0;
     background: crimson;
 }
 
@@ -111,7 +75,7 @@ section .title::after {
 
 .navbar .logo a {
     color: #fff;
-    font-size: 35px;
+    font-size: 35%;
     font-weight: 600;
 }
 
@@ -132,8 +96,8 @@ section .title::after {
 .navbar .menu li a {
     display: block;
     color: #fff;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 115%;
+    font-weight: 500%;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
@@ -149,7 +113,6 @@ section .title::after {
 /* menu btn styling */
 .menu-btn {
     color: #fff;
-    font-size: 23px;
     cursor: pointer;
     display: none;
 }
@@ -208,73 +171,3 @@ section .title::after {
     color: crimson;
     background: none;
 }
-
-.home .home-bottom {
-    color: #fff;
-    margin-top: 100%;
-}
-
-.about {
-    display: flex;
-    background: #112344;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.about .about-content {}
-
-.athlete {
-    display: flex;
-    background: #1D3C70;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.athlete .athlete-content {}
-
-.skills {
-    display: flex;
-    background: #707E9B;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.skills .skills-content {}
-
-.curiosities {
-    display: flex;
-    background: #8493A0;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.curiosities .skills-content {}
-
-.contact {
-    display: flex;
-    background: #BEB9B6;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.contact .skills-content {}
