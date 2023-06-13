@@ -57,7 +57,7 @@ footer {
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 3% 0;
+    padding: 2% 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
