@@ -62,7 +62,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-.navbar.sticky {
+.navbar .sticky {
     padding: 15% 0;
     background: crimson;
 }
@@ -167,11 +167,4 @@ footer {
 .home .home-content a:hover {
     color: crimson;
     background: none;
-}
-
-@media(max-width: 100%) {
-    .home .max-width {
-        width: 200%;
-        display: flex;
-    }
 }
