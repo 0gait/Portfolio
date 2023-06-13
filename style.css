@@ -120,12 +120,10 @@ footer {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/homeBackground.png") no-repeat center;
     height: 100vh;
+    background: url("images/homeBackground.png") no-repeat center;
     color: #fff;
-    min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -135,18 +133,17 @@ footer {
 }
 
 .home .home-content .text-1 {
-    font-size: 27px;
+    font-size: 210%;
 }
 
 .home .home-content .text-2 {
-    font-size: 75px;
-    font-weight: 600;
+    font-size: 500%;
+    font-weight: bold;
     margin-left: -3px;
 }
 
 .home .home-content .text-3 {
-    font-size: 40px;
-    margin: 5px 0;
+    font-size: 210%;
 }
 
 .home .home-content .text-3 span {
@@ -158,12 +155,12 @@ footer {
     display: inline-block;
     background: crimson;
     color: #fff;
-    font-size: 25px;
-    padding: 12px 36px;
+    font-size: 25%;
+    padding: 12% 36%;
     margin-top: 20px;
     font-weight: 400;
-    border-radius: 6px;
-    border: 2px solid crimson;
+    border-radius: 6%;
+    border: 2% solid crimson;
     transition: all 0.3s ease;
 }
 
