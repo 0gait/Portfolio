@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #091222;
     color: #fff;
 }
 
@@ -133,7 +133,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #78aabc;
 }
 
 .sub-text {
