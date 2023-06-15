@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 15px 10%;
 }
 
 nav {
@@ -124,6 +124,7 @@ nav ul li a:hover::after {
 .about-col-1 img {
     width: 100%;
     border-radius: 15%;
+    padding: 25px;
 }
 
 .about-col-2 {
@@ -184,6 +185,23 @@ nav ul li a:hover::after {
 
 /* -------------- athlete -------------- */
 
+
+
+/* -------------- curiosities -------------- */
+
+.about-col-1-2 {}
+
+.about-col-1-2 ul li {
+    list-style: inside;
+    margin: 10px 20px;
+    color: #fff;
+}
+
+.about-col-2-2 img {
+    width: 100%;
+    padding: 25px;
+    flex-basis: 10%;
+}
 
 /* -------------- contact -------------- */
 
