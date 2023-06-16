@@ -42,32 +42,61 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/default.png">
+                    <img src="images/card.png">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p class="sub-text">here text TODO</p>
-
+                    <p class="sub-text">
+                        I'm 21 years old, I'm in my 4th year of the integrated master's degree in Computer Engineering.
+                        I am extremely interested in gaining experience that can enhance my professional career, I would
+                        like to work in an organization that makes me feel good about myself and values the work of its
+                        employees. I would love to be able to have a balance between work and personal life (being able
+                        to work abroad, but without permanently commuting to the country), and to be able to feel secure
+                        in my job. I really appreciate the collaborative spirit, but I also like to be autonomous and
+                        independent in what I do.
+                    </p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Expirence</p>
                         <p class="tab-links" onclick="opentab('formation')">Formation</p>
+                        <p class="tab-links" onclick="opentab('curiosities')">Curiosities</p>
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><br>Some React and React native skills</li>
-                            <li><br>Have knowledge about cloud computing</li>
-                            <li><br>Studied distributed systems</li>
+                            <li>Some React and React native skills</li>
+                            <li>Have knowledge about cloud computing (mainly Azure, and some Kubernetes)</li>
+                            <li>Studied distributed systems</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><br>Internship in workflow skills</li>
+                            <li>Internship in Skills Workflow during 4 months</li>
+                            <li>School projects like: blockchain system with PBFT; IoT system for watering; app to
+                                manage pantry; deploy backend of an aplication in Azure and after in Kubernetes
+                            </li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="formation">
                         <ul>
-                            <li><br>FCT NOVA - Engenharia Informática</li>
+                            <li>Atualidade: Mestrado Integrado em Engenharia Informática (NOVA FCT)</li>
+                            <li>2016 - 2019: Estudante na Escola Secundária de Amora </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="curiosities">
+                        <p># My 10 rules:</p>
+                        <ul>
+                            <li>When I talk to someone, I assume that they know something I don't.</li>
+                            <li>Never leave for later what you can do now.</li>
+                            <li>Turn all your regrets into lessons learned.</li>
+                            <li>Worry, value and put the one's you love always first.</li>
+                            <li>Always dive headlong into a change.</li>
+                            <li>Try your best to learn from other people's mistakes.</li>
+                            <li>Be strong but not rude, be affectionate but not weak, be humble but not shy, and be
+                                confident but never arrogant.</li>
+                            <li>Live for the moments, not the minutes.</li>
+                            <li>Remember that all difficulties prepare you for extraordinary destinations.</li>
+                            <li>When something is really important, fight for it or as much as you can, and be
+                                consistent even if the odds of going wrong are high.</li>
                         </ul>
                     </div>
                 </div>
@@ -79,33 +108,12 @@
     <div id="athlete">
         <div class="container">
             <div class="row">
-                HERE
-            </div>
-        </div>
-    </div>
-
-    <!------------------- curiosities ------------------->
-    <div id="curiosities">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1-2">
-                    <h1 class="sub-title">Curiosities</h1>
-                    <p>My 10 rules:</p>
-                    <ul>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                        <li>aa</li>
-                    </ul>
+                <div class="athlete-col-1-2">
+                    <h1 class="sub-title">As athlete</h1>
+                    HERE
                 </div>
-                <div class="about-col-2-2">
-                    <img src="images/card.png">
+                <div class="athlete-col-2-2">
+                    HERE
                 </div>
             </div>
         </div>
@@ -126,7 +134,7 @@
                         <a href="https://www.linkedin.com/in/tiago-valentim-henriques"><i
                                 class="fab fa-linkedin"></i></a>
                     </div>
-                    <a href="CV_TiagoHenriques.pdf" download class="btn btn2"> Download CV</a>
+                    <a href="CV_TiagoHenriques.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form>
@@ -145,13 +153,16 @@
         var typed = new Typed(" .typing", {
             strings: ["a Computer Science Engineer", "an Athlete"], typeSpeed: 100,
             backSpeed: 60, loop: true,
-        }); var tabLinks = document.getElementsByClassName("tab-links");
+        });
+
+        var tabLinks = document.getElementsByClassName("tab-links");
         var tabContents = document.getElementsByClassName("tab-contents"); function opentab(tabName) {
             for (tl of tabLinks) { tl.classList.remove("active-link"); } for (tc of tabContents) {
                 tc.classList.remove("active-tab");
             } event.currentTarget.classList.add("active-link");
             document.getElementById(tabName).classList.add("active-tab");
-        } </script>
+        } 
+    </script>
 </body>
 
 </html>
