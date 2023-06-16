@@ -32,13 +32,13 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 10px;
+    margin: 10px 25px;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
 }
 
@@ -200,20 +200,17 @@ nav ul li a:hover::after {
     color: white;
 }
 
-.athlete-col-1-2 {
-    flex-basis: 65%;
+.athlete-col-1 {
+    flex-basis: 40%;
 }
 
-.athlete-col-1-2 ul li {
-    list-style: none;
-    margin: 10px 15px;
-    color: white;
-}
-
-.athlete-col-2-2 img {
-    width: 90%;
-    padding: 25px;
+.athlete-col-2 {
     flex-basis: 50%;
+}
+
+.athlete-col-2 img {
+    width: 83%;
+    padding: 12px;
 }
 
 /* -------------- contact -------------- */
@@ -305,6 +302,10 @@ form .btn2 {
     margin-top: 10px;
     cursor: pointer;
     background-color: #242424;
+}
+
+form i {
+    font-size: 18px;
 }
 
 /* -------------- mobile -------------- */
